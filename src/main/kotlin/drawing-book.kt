@@ -14,6 +14,7 @@ import kotlin.io.*
 import kotlin.jvm.*
 import kotlin.jvm.functions.*
 import kotlin.jvm.internal.*
+import kotlin.math.min
 import kotlin.ranges.*
 import kotlin.sequences.*
 import kotlin.text.*
@@ -29,25 +30,7 @@ https://www.hackerrank.com/challenges/drawing-book/problem?isFullScreen=true
  */
 
 fun pageCount(n: Int, p: Int): Int {
-    val isFirstPage = p == 1
-    val isLastPage = p == n
-    val isMiddlePage = p != 1 && p != n
-
-    if (isFirstPage.or(isLastPage)) {
-        return 0
-    }
-
-    var currentPage = 0
-    var effort = 0
-    for (index in 1..n) {
-        currentPage += 2
-        effort++
-        if (currentPage >= p - 1 || currentPage <= p + 1) {
-            break
-        }
-    }
-
-    return effort
+     return min(p / 2, n / 2 - p / 2)
 }
 
 fun main(args: Array<String>) {

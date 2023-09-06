@@ -12,3 +12,13 @@ P
  src/main/kotlin/sock-merchant.kt,b\e\be331932893588d8a3df481be6ccde1469485aa6
 O
 src/main/kotlin/drawing-book.kt,d\3\d3efa22a32cef4d49d09d4bd235cad232c1190fe
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+D
+learn-hackerrank.iml,f\6\f610c90b35d5a1dde181701d054a9d88be52591b
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+S
+#src/main/kotlin/counting-valleys.kt,3\e\3e336d525a84193b7979095b1650ed6474b8e991
